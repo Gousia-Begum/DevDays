@@ -1,0 +1,142 @@
+[
+  {
+    "Date": "21-May",
+    "Time": "1:00 PM-3:15 PM",
+    "Track": "Lab Room",
+    "Workshop Name": "Vision AI DevToolkit Workshop",
+    "Intro (include speaker, description, any equipment/environment requirements)": "Speaker: \nDescription: \nRequirements:",
+    "Custom question if needed": "",
+    "GEP wants to connect": "",
+    "Certain page": "https://www.microsoftevents.com/profile/form/index.cfm?PKformID=0x6926888abcd"
+  },
+  {
+    "Date": "21-May",
+    "Time": "3:30 PM-4:45 PM",
+    "Track": "Lab Room",
+    "Workshop Name": "AI and IOT Edge Power Couple Workshop",
+    "Intro (include speaker, description, any equipment/environment requirements)": "Speaker: Ted Way and Darwin Schweitzer \nDescription: \nRequirements: \n• An Azure subscription (50usd?)\n• Visual Studio Code\n              o Azure IoT Hub Toolkit extension",
+    "Custom question if needed": "",
+    "GEP wants to connect": "",
+    "Certain page": "SRIPE1825"
+  },
+  {
+    "Date": "21-May",
+    "Time": "4:45 PM-6:00 PM",
+    "Track": "Lab Room",
+    "Workshop Name": "Explore the Power of the Cloud by Converting Your Mail App to Microsoft Graph",
+    "Intro (include speaker, description, any equipment/environment requirements)": "Speaker: Ivy Lin \nDescription: \nRequirements: \n- Visual Studio  (2019 or code)\n• ASP.NET and web development \n• Office/SharePoint development\nHave Office O365 Account with PowerPoint document including images.(?)\n- Download zip file for repo https://github.com/InteropEvents/ShareDataSite-OOXML-SDK\n- Prerequires here:\nhttps://github.com/InteropEvents/ShareDataSite-OOXML-SDK/blob/master/exercises/0.%20Prerequisites.md",
+    "Custom question if needed": "",
+    "GEP wants to connect": "",
+    "Certain page": "SRIPE1826"
+  },
+  {
+    "Date": "22-May",
+    "Time": "1:00 PM-3:15 PM",
+    "Track": "Lab Room",
+    "Workshop Name": "Teams Lab/ Workshop",
+    "Intro (include speaker, description, any equipment/environment requirements)": "Speaker: Dan Stevenson, Surbhi Jain\nDescription: \nRequirements: None",
+    "Custom question if needed": "",
+    "GEP wants to connect": "",
+    "Certain page": "https://www.microsoftevents.com/profile/6941803"
+  },
+  {
+    "Date": "22-May",
+    "Time": "3:30 PM-6:00 PM",
+    "Track": "Lab Room",
+    "Workshop Name": "Teams Lab/ Workshop_B",
+    "Intro (include speaker, description, any equipment/environment requirements)": "Speaker: Dan Stevenson, Surbhi Jain\nDescription: \nRequirements: None",
+    "Custom question if needed": "",
+    "GEP wants to connect": "",
+    "Certain page": "SRIPE2075"
+  },
+  {
+    "Date": "23-May",
+    "Time": "9:00 AM-10:30 AM",
+    "Track": "Lab Room",
+    "Workshop Name": "(TBD) Teams Lab/ Workshop",
+    "Intro (include speaker, description, any equipment/environment requirements)": "Speaker: \nDescription: \nRequirements: None",
+    "Custom question if needed": "",
+    "GEP wants to connect": "",
+    "Certain page": "TBD"
+  },
+  {
+    "Date": "23-May",
+    "Time": "11:00 AM - 12:00 PM",
+    "Track": "TBD",
+    "Workshop Name": "Data Portability on the Cloud with the Office Open XML SDK WORKSHOP",
+    "Intro (include speaker, description, any equipment/environment requirements)": "Speaker: Ivy Lin\nDescription: \nRequirements: \n-Have Microsoft cloud mail account, either of these 3 will work.\n• @***.onmicrosoft.com \n• @outlook.com \n• @hotmail.com\n- Download zip file for repo https://github.com/InteropEvents/mail-app-microsoft-graph",
+    "Custom question if needed": "USB prepare by Corp team",
+    "GEP wants to connect": "",
+    "Certain page": "TBD"
+  },
+  {
+    "Date": "22-May",
+    "Time": "1:00 PM - 2:00 PM",
+    "Track": "2nd Conference Room",
+    "Workshop Name": "SQL Server 2019 on Linux and Containers - installation & data management",
+    "Intro (include speaker, description, any equipment/environment requirements)": "Speaker: Tejas Shah and Eric Bortei-Doku\nDescription: \nRequirements:",
+    "Custom question if needed": "",
+    "GEP wants to connect": "",
+    "Certain page": "None"
+  },
+  {
+    "Date": "22-May",
+    "Time": "2:00 PM - 3:15 PM",
+    "Track": "2nd Conference Room",
+    "Workshop Name": "Extend the Functionality of Word, Excel, PowerPoint, or OneNote with an Office Add-In",
+    "Intro (include speaker, description, any equipment/environment requirements)": "Speaker: Tom Jebo \nDescription: \nRequirements: \n1.Community Edition- Visual Studio (latest version)\n2. Office 365 Dveeloper Account w/ Admin",
+    "Custom question if needed": "USB prepare by Corp team",
+    "GEP wants to connect": "",
+    "Certain page": "None"
+  },
+  {
+    "Date": "22-May",
+    "Time": "3:30 PM - 4:30 PM",
+    "Track": "2nd Conference Room",
+    "Workshop Name": "Cloud Scale Analytics with Azure Workshop",
+    "Intro (include speaker, description, any equipment/environment requirements)": "Speaker: Darwin Schweitzer \nDescription: \nRequirements: Install Git: \nhttps://git-scm.com/downloads",
+    "Custom question if needed": "",
+    "GEP wants to connect": "",
+    "Certain page": "None"
+  },
+  {
+    "Date": "22-May",
+    "Time": "4:30 PM - 5:30 PM",
+    "Track": "2nd Conference Room",
+    "Workshop Name": "Graph Workshop",
+    "Intro (include speaker, description, any equipment/environment requirements)": "Speaker: Mark Stafford\nDescription: \nRequirements: • Download and install a version of Visual Studio 2019 (the Community version should work)\n• Join the Office 365 developer program and set up a (free) subscription\n• Create an Azure free account (50/100usd)",
+    "Custom question if needed": "",
+    "GEP wants to connect": "",
+    "Certain page": "None"
+  },
+  {
+    "Date": "",
+    "Time": "",
+    "Track": "",
+    "Workshop Name": "",
+    "Intro (include speaker, description, any equipment/environment requirements)": "",
+    "Custom question if needed": "",
+    "GEP wants to connect": "",
+    "Certain page": ""
+  },
+  {
+    "Date": "",
+    "Time": "",
+    "Track": "",
+    "Workshop Name": "",
+    "Intro (include speaker, description, any equipment/environment requirements)": "",
+    "Custom question if needed": "",
+    "GEP wants to connect": "",
+    "Certain page": ""
+  },
+  {
+    "Date": "",
+    "Time": "",
+    "Track": "",
+    "Workshop Name": "",
+    "Intro (include speaker, description, any equipment/environment requirements)": "",
+    "Custom question if needed": "",
+    "GEP wants to connect": "",
+    "Certain page": ""
+  }
+]

@@ -1,0 +1,53 @@
+﻿
+@{
+    ViewBag.Title = "SecondTrack";
+}
+
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <meta http-equiv="X-UA-Compatible" content="ie=edge" />
+    <link rel="stylesheet" type="text/css" media="screen" href="~/Content/day1.css" />
+    <link rel="stylesheet"
+          href="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/css/bootstrap.min.css" />
+    <script src="https://code.jquery.com/jquery-3.3.1.slim.min.js"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.14.7/umd/popper.min.js"></script>
+    <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/js/bootstrap.min.js"></script>
+    <title>Dev Day1 Popups</title>
+</head>
+
+<body>
+    <div class="modal-dialog modal-lg modal-dialog-centered" role="document">
+        <div class="modal-content">
+            <div class="modal-header">
+                <h5 class="modal-title fz24" id="classDetail-title">Microsoft Teams: introduction for developers </h5>
+                
+            </div>
+            <div class="modal-body" id="classDetail-body">
+                <div class="row">
+                    <div class="col classItem" id="classDetail-kind"></div>
+                </div>
+                <div class="row mb-3 mt-3">
+                    <div class="col f-size">
+                        <span class="d-inline-block">Time :</span>
+                        <span class="d-inline-block">
+                            <span id="classDetail-date">2019-05-21</span>
+                            <span id="classDetail-time">13:00 - 13:45 </span>
+                        </span>
+                    </div>
+                    <div class="col f-size">
+                        <span class="d-inline-block">Speaker :</span>
+                        <span class="d-inline-block" id="classDetail-speaker">Dan Stevenson, Surbhi Jain</span>
+                    </div>
+                </div>
+                <div class="row">
+                    <div class="col f-size" id="classDetail-infor"><pre>Microsoft Teams is the fastest growing business app in Microsoft's history. Learn about how Teams is transforming communications and collaboration and see how Teams is extensible and customizable. Includes a high-level walkthrough of the product features, technical architecture, and platform capabilities.</pre></div>
+                </div>
+            </div>
+        </div>
+    </div>
+</body>
+</html>
+

@@ -1,0 +1,57 @@
+﻿
+@{
+    ViewBag.Title = "FirstTrack3";
+}
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <meta http-equiv="X-UA-Compatible" content="ie=edge" />
+    <link rel="stylesheet" type="text/css" media="screen" href="~/Content/day1.css" />
+    <link rel="stylesheet"
+          href="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/css/bootstrap.min.css" />
+    <script src="https://code.jquery.com/jquery-3.3.1.slim.min.js"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.14.7/umd/popper.min.js"></script>
+    <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/js/bootstrap.min.js"></script>
+    <title>Dev Day1 Popups</title>
+</head>
+
+<body>
+    <div class="modal-dialog modal-lg modal-dialog-centered" role="document">
+        <div class="modal-content">
+            <div class="modal-header">
+                <h5 class="modal-title fz24" id="classDetail-title">Cloud Scale Analytics with Azure Talk</h5>
+                
+            </div>
+            <div class="modal-body" id="classDetail-body">
+                <div class="row">
+                    <div class="col classItem" id="classDetail-kind"></div>
+                </div>
+                <div class="row mb-3 mt-3">
+                    <div class="col f-size">
+                        <span class="d-inline-block">Time :</span>
+                        <span class="d-inline-block">
+                            <span id="classDetail-date">2019-05-21</span>
+                            <span id="classDetail-time">14:30 - 15:15 </span>
+                        </span>
+                    </div>
+                    <div class="col f-size">
+                        <span class="d-inline-block">Speaker :</span>
+                        <span class="d-inline-block" id="classDetail-speaker">Darwin Schweitzer</span>
+                    </div>
+                </div>
+                <div class="row">
+                    <div class="col f-size" id="classDetail-infor">
+                        <pre>In this session learn how to build Cloud Scale Analytics using Azure Storage, Azure Databricks, Azure Data Factory, Azure Machine Learning service, and Azure SQL databases.  We will discuss use cases that span Data Engineering, Data Scientist, and Data Analyst roles.  Whether needing to lift and shift existing solutions to cloud, or building new cloud-based analytics you will need to:
+•	cleanse and move data to the cloud at scale
+•	enhance developer productivity
+•	build, train, and deploy ML models</pre>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+</body>
+</html>
+

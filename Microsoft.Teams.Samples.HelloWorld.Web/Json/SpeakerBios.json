@@ -1,0 +1,98 @@
+﻿  [
+    {
+      "SpeakerName": "Ted Way",
+      "Title": "Senior Program Manager, Azure Machine Learning",
+      "Bio": "Ted Way is a senior program manager on the Azure Machine Learning engineering team at Microsoft, where he works on bringing machine learning to the edge and hardware acceleration of AI. He’s passionate about telling the story of how AI will empower people and organizations to achieve more and has been invited as a keynote speaker for two Microsoft partner conferences. He has twice received the Microsoft Executive Briefing Center’s Distinguished Speaker Award, awarded to only five out of over 1,000 speakers at Microsoft. He holds BS degrees in electrical engineering and computer engineering, MS degrees in electrical engineering and biomedical engineering, and a PhD in biomedical engineering from the University of Michigan—Ann Arbor. His PhD dissertation was on “spell check for radiologists,” a computer-aided diagnosis (CAD) system that uses image processing and machine learning to predict lung cancer malignancy on chest CT scans.",
+      "Snap": "##BaseURL##/TedWay.jpg"
+    },
+    {
+      "SpeakerName": "Bin Guo",
+      "Title": "Software Engineer, SQL OIPI Test Development Team",
+      "Bio": "Bin Guo is a software engineer in the test development team of SQL Server interoperability initiative program. Her primary responsibility is quality assurance for SQL Server open specifications, including development for SQL Server Test Suites, Parser and interoperability tools. Prior to her current role, Bin worked as a software engineer for testing in Office and Windows interoperability team, and a software engineer in Sina.com China. She graduated from Beijing Information Science & Technology University with a Bachelor of Science degree in Computer Science.",
+      "Snap": "##BaseURL##/Images/BinGuo.jpg"
+    },
+    {
+      "SpeakerName": "Baoming Yu",
+      "Title": "Software Engineer, SQL OIPI Test Development Team",
+      "Bio": "Baoming Yu is a Software Engineer in SQL OIPI Team. His primary responsibility is quality assurance for SQL Server open specifications, including development for SQL Server Test Suites, Parser and interoperability tools. Prior to his current role, Baoming worked as a software engineer for testing in Office interoperability team. He graduated from Tianjin University of Technology with a Bachelor degree in Information and Computing Science.",
+      "Snap": "##BaseURL##/Images/BaomingYu.jpg"
+    },
+    {
+      "SpeakerName": "Lin Dong",
+      "Title": "Program Manager, SQL OIPI Test Development Team",
+      "Bio": "Lin is a Program Manager of SQL OIPI Test Development Team. She is working in SQL Server interoperability initiative program for over eight years. Her primary responsibility is quality assurance for SQL Server open specifications, including development for SQL Server Test Suites, Parser and interoperability tools.\nPrior to her current role, Lin worked as a software engineer for testing windows mobile device. She graduated from Wuhan University of Technology with a Bachelor degree of engineering in Telecommunication Engineering。",
+      "Snap": "##BaseURL##/Images/LinDong.jpg"
+    },
+    {
+      "SpeakerName": "Max Wang",
+      "Title": "Software Engineer, SQL OIPI Test Development Team",
+      "Bio": "Max is a Software Engineer in SQL OIPI Team. His primary responsibility is quality assurance for SQL Server open specifications, including development for SQL Server Test Suites, Parser and interoperability tools. Max is graduated from Beijing University of Technology, he has joint the team for 4 years, prior to the current role, he worked as a Support Engineer and Software Tester.",
+      "Snap": "##BaseURL##/Images/MaxWang.jpg"
+    },
+    {
+      "SpeakerName": "Lu Hu (keynote)",
+      "Title": "Senior Engineering Manager, Microsoft",
+      "Bio": "Lu Hu currently focus on modern user experience development. Lu Hu passionates about web development and open source technologies. He also has deep understanding and rich experience on design, architect and build enterprise solution based on the cloud.",
+      "Snap": "##BaseURL##/Images/LuHu.jpg"
+    },
+    {
+      "SpeakerName": "Qianqian Li (keynote)",
+      "Title": "Software Engineer, Microsoft",
+      "Bio": "Qianqian currently works on developing modern SharePoint Page and Web Parts. She passionates about creating user-friendly web products. She received Master degree in Computer Vision from Nanjing University before join Microsoft.",
+      "Snap": "##BaseURL##/Images/QianqianLi.jpg"
+    },
+    {
+      "SpeakerName": "Dan Stevenson",
+      "Title": "Principal PM Manager",
+      "Bio": "Dan Stevenson is a founding member of Microsoft Teams. He currently leads engineering for Asia, driving product strategy and adoption in fast-growing markets. Earlier, he led core product development, including teams/channels, guest access, and the free and education versions of Teams. He also represents Teams at industry events and online. Dan joined Microsoft in 2003 and previously led engineering in Windows, Skype, and Azure. Before Microsoft, Dan founded and sold a software startup. He graduated from MIT in physics and did graduate studies at the MIT Media Lab. Dan lives in Taipei, Taiwan, with his wife and two children.",
+      "Snap": "##BaseURL##/Images/DanStevenson.jpg"
+    },
+    {
+      "SpeakerName": "Edgar Olougouna",
+      "Title": "Senior Escalation Engineer, Microsoft",
+      "Bio": "Edgar Olougouna is a Sr Escalation Engineer serving in the Open Specifications – Developer Support team. He assists partners in achieving interoperability using the Windows protocols documentation. He has been with the team for over 10 years. The 8 years prior to joining Microsoft, he was a protocols software engineer for mobile messaging services running on Linux and Unix.",
+      "Snap": "##BaseURL##/Images/EdgarOlougouna.jpg"
+    },
+    {
+      "SpeakerName": "Surbhi Jain (keynote)",
+      "Title": "Program Manager, Microsoft Teams",
+      "Bio": "Surbhi is a Program Manager working in Microsoft Teams engineering. She focuses on product and ecosystem growth for Microsoft Teams Developer Platform. She engages with customers and partners to help them envision, design, build, and ship their applications on Microsoft Teams leveraging various platform capabilities on Microsoft Teams. Surbhi has a strong experience working with customers and partners to solve business challenges using cutting-edge technologies and driving technology programs for the developer ecosystem.",
+      "Snap": "##BaseURL##/Images/SurbhiJain.jpg"
+    },
+    {
+      "SpeakerName": "Mark Stafford",
+      "Title": "Principal Program Manager",
+      "Bio": "Mark Stafford helps lead the PM team for Microsoft Graph API, the developer’s gateway to data and intelligence in Microsoft 365. Microsoft Graph API gets nearly 10 billion API calls every day! Mark leverages over a decade of PM leadership on multiple continents for multiple companies. For Microsoft, he has worked in Redmond and Shanghai, influencing API design across the company. Before Microsoft, Mark was a VP for a small startup focused on bringing technology to health care. In his spare time (ha ha), he loves to hike with his wife and five children, and he often dreams of sunny days.",
+      "Snap": "##BaseURL##/Images/MarkStafford.jpg"
+    },
+    {
+      "SpeakerName": "Keyur Patel (keynote)",
+      "Title": "Senior Program Manager",
+      "Bio": "Keyur is a Program Manager on the Office Developer Platform team, focusing on Excel extensibility, and works with developers who build solutions that make data come to life.",
+      "Snap": "##BaseURL##/Images/KeyurPatel.jpg"
+    },
+    {
+      "SpeakerName": "Asad Khan (keynote)",
+      "Title": "Principal DIR Program Management",
+      "Bio": "",
+      "Snap": "##BaseURL##/Images/AsadKhan.jpg"
+    },
+    {
+      "SpeakerName": "Kamal Janardhan (keynote)",
+      "Title": "Partner Director Of PM",
+      "Bio": "",
+      "Snap": "##BaseURL##/Images/KamalJanardhan.jpg"
+    },
+    {
+      "SpeakerName": "Miaofei Wang",
+      "Title": "Software Engineer 2",
+      "Bio": "Miaofei Wang is a Software Engineer in Office Extensibility team. He has been worked on Office Add-ins and APIs for more than 3 years. Before joined Microsoft, he graduated from Tsinghua University with a Master degree of Software Engineering.",
+      "Snap": "##BaseURL##/Images/MiaofeiWang.jpg"
+    },
+    {
+      "SpeakerName": "Tina Ju-Ting Ying",
+      "Title": "Product Marketing Manager, Microsoft 365",
+      "Bio": "",
+      "Snap": "##BaseURL##/Images/TinaYing.jpeg"
+    }
+  ]

@@ -1,0 +1,54 @@
+﻿
+@{
+    ViewBag.Title = "FirstTrack6";
+}
+
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <meta http-equiv="X-UA-Compatible" content="ie=edge" />
+    <link rel="stylesheet" type="text/css" media="screen" href="~/Content/day1.css" />
+    <link rel="stylesheet"
+          href="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/css/bootstrap.min.css" />
+    <script src="https://code.jquery.com/jquery-3.3.1.slim.min.js"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.14.7/umd/popper.min.js"></script>
+    <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/js/bootstrap.min.js"></script>
+    <title>Dev Day1 Popups</title>
+</head>
+
+<body>
+    <div class="modal-dialog modal-lg modal-dialog-centered" role="document">
+        <div class="modal-content">
+            <div class="modal-header">
+                <h5 class="modal-title fz24" id="classDetail-title">Build modern database applications using Azure SQL Database Managed Instance</h5>
+               
+            </div>
+            <div class="modal-body" id="classDetail-body">
+                <div class="row">
+                    <div class="col classItem" id="classDetail-kind"></div>
+                </div>
+                <div class="row mb-3 mt-3">
+                    <div class="col f-size">
+                        <span class="d-inline-block">Time :</span>
+                        <span class="d-inline-block">
+                            <span id="classDetail-date">2019-05-21</span>
+                            <span id="classDetail-time">17:15 - 18:00</span>
+                        </span>
+                    </div>
+                    <div class="col f-size">
+                        <span class="d-inline-block">Speaker :</span>
+                        <span class="d-inline-block" id="classDetail-speaker">Tejas Shah</span>
+                    </div>
+                </div>
+                <div class="row">
+                    <div class="col f-size" id="classDetail-infor"><pre>Azure SQL Database provides a fully managed instance deployment model that enables friction-free migration for SQL Server applications running on-premises. It lets you focus on your business without having to worry about infrastructure management or operations or end of life. Learn how to easily build data ingestion using SSIS and ADF, app modernization using new database engine and security capabilities in the service and finally build near real-time analytics and visualization using Power BI and scaling this out to read replicas of instance. Come and learn how to start your cloud modernization at scale now, using Azure SQL DB Managed Instance, and how to create a hybrid topology with on-premises and cloud database services.</pre></div>
+                </div>
+            </div>
+        </div>
+    </div>
+</body>
+</html>
+
+

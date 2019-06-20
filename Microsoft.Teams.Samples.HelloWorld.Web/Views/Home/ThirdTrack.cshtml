@@ -1,0 +1,57 @@
+﻿
+@{
+    ViewBag.Title = "ThirdTrack";
+}
+
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <meta http-equiv="X-UA-Compatible" content="ie=edge" />
+    <link rel="stylesheet" type="text/css" media="screen" href="~/Content/day1.css" />
+    <link rel="stylesheet"
+          href="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/css/bootstrap.min.css" />
+    <script src="https://code.jquery.com/jquery-3.3.1.slim.min.js"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.14.7/umd/popper.min.js"></script>
+    <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/js/bootstrap.min.js"></script>
+    <title>Dev Day1 Popups</title>
+</head>
+
+<body>
+    <div class="modal-dialog modal-lg modal-dialog-centered" role="document">
+        <div class="modal-content">
+            <div class="modal-header">
+                <h5 class="modal-title fz24" id="classDetail-title">AI and IOT Edge Power Couple  Workshop</h5>
+               
+            </div>
+            <div class="modal-body" id="classDetail-body">
+                <div class="row">
+                    <div class="col classItem" id="classDetail-kind"></div>
+                </div>
+                <div class="row mb-3 mt-3">
+                    <div class="col f-size">
+                        <span class="d-inline-block">Time :</span>
+                        <span class="d-inline-block">
+                            <span id="classDetail-date">2019-05-21</span>
+                            <span id="classDetail-time">15:30 - 16:30 </span>
+                        </span>
+                    </div>
+                    <div class="col f-size">
+                        <span class="d-inline-block">Speaker :</span>
+                        <span class="d-inline-block" id="classDetail-speaker">Ted Way, Darwin Schweitzer </span>
+                    </div>
+                </div>
+                <div class="row">
+                    <div class="col f-size" id="classDetail-infor">
+                        <div class="mt-5"><span class="_lang-en">Description</span></div><hr><pre>Train an AI model and deploy it to an IOT Edge device</pre><div><span class="_lang-en">Requirement</span></div><hr><pre>•	An Azure subscription
+•	Visual Studio Code
+		o Azure IoT Hub Toolkit extension</pre>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+</body>
+</html>
+

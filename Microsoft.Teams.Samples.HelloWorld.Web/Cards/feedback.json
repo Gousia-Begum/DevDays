@@ -1,0 +1,114 @@
+{
+    "$schema": "http://adaptivecards.io/schemas/adaptive-card.json",
+    "type": "AdaptiveCard",
+    "version": "1.0",
+    "body": [
+        {
+            "type": "ColumnSet",
+            "columns": [
+                {
+                    "type": "Column",
+                    "width": 3,
+                    "items": [
+                        {
+                            "type": "TextBlock",
+                            "text": "Rate your experience",
+                            "weight": "bolder",
+                            "size": "large"
+                        },
+                        {
+                            "type": "TextBlock",
+                            "text": "We just need few more details to call this session! Can you please take a quick survey.",
+                            "isSubtle": true,
+                            "wrap": true
+                        },                       
+                        {
+                            "type": "TextBlock",
+                            "text": "1\\. Your name",
+                            "wrap": true
+                        },
+                        {
+                            "type": "Input.Text",
+                            "id": "myName",
+                            "placeholder": "Last, First"
+                        },
+                        {
+                            "type": "TextBlock",
+                            "text": "2\\. How was the session?",
+                            "wrap": true
+                        },
+                        {
+                            "type": "Input.ChoiceSet",
+                            "id": "technicianQuery",
+                            "isRequired": true,
+                            "placeholder": "Select a rating",
+                            "choices": [
+                                {
+                                    "title": "Excellent",
+                                    "value": "1"
+                                },
+                                {
+                                    "title": "Very Good",
+                                    "value": "2"
+                                },
+                              {
+                                "title": "Good",
+                                "value": "3"
+                              }
+                            ]
+                        },
+                        {
+                            "type": "TextBlock",
+                            "text": "3\\. How was the content?",
+                            "wrap": true
+                        },
+                        {
+                            "type": "Input.ChoiceSet",
+                            "id": "technicianQuery",
+                            "isRequired": true,
+                            "placeholder": "Select a rating",
+                            "choices": [
+                                {
+                                    "title": "Excellent",
+                                    "value": "1"
+                                },
+                                {
+                                    "title": "Very Good",
+                                    "value": "2"
+                                }
+                            ]
+                        },
+                        {
+                            "type": "TextBlock",
+                            "text": "4\\. Anything else you want to add?",
+                            "wrap": true
+                        },
+                        {
+                            "type": "Input.Text",
+                            "id": "comment",
+                            "isMultiline": true,
+                            "placeholder": "Add a comment"
+                        }
+                    ]
+                },
+                {
+                    "type": "Column",
+                    "width": 1,
+                    "items": [
+                      {
+                        "type": "Image",
+                        "url": "https://upload.wikimedia.org/wikipedia/commons/c/c9/Microsoft_Office_Teams_%282018%E2%80%93present%29.svg",
+                        "size": "auto"
+                      }
+                    ]
+                }
+            ]
+        }
+    ],
+    "actions": [
+        {
+            "type": "Action.Submit",
+            "title": "Submit"
+        }
+    ]
+}

@@ -1,0 +1,395 @@
+html {
+    overflow-y: scroll;
+}
+
+
+.bgc {
+  background-color: #00415c;
+}
+
+.nav-move {
+  display: -webkit-flex;
+  display: -ms-flexbox;
+  display: -webkit-box;
+  display: flex;
+  -webkit-box-pack: justify;
+  -ms-flex-pack: justify;
+  justify-content: space-between;
+}
+.nav-item:hover {
+  background-color: white;
+  color: #00415c !important;
+  cursor: pointer;
+}
+.register,
+.register.active {
+  background-color: #d83b01 !important;
+  color: white !important;
+}
+
+.register:hover {
+  background-color: #ff8c00 !important;
+  color: white !important;
+}
+
+.boxpadding {
+  padding-top: 80px;
+  padding-bottom: 80px;
+}
+
+.para_style {
+  line-height: 1.8em;
+  font-size: 18px;
+}
+
+.pb {
+  padding-bottom: 40px;
+}
+
+.titlestyle_01 {
+  text-align: center;
+  color: #006cb8;
+  font-family: apple-system, BlinkMacSystemFont, SegoeUI, "微軟正黑體",
+    Microsoft JhengHei, sans-serif, "Apple Color Emoji", "Segoe UI Emoji",
+    "Segoe UI Symbol";
+  font-size: 36px;
+}
+
+.mb-3 {
+  margin-bottom: 1rem !important;
+}
+
+.nav2 {
+  display: flex;
+  width: 100%;
+  text-align: center;
+  border-bottom: 2px #0072b1 solid;
+}
+
+.link {
+  border-radius: 0;
+  padding: 1rem;
+  color: #00a3fe;
+  width: 100%;
+  line-height: 1.5em;
+}
+
+.link.active {
+  color: #fff !important;
+  background-color: #007bff !important;
+}
+
+.link {
+  display: block;
+  padding: 16px !important;
+}
+
+.nav2:hover {
+  background-color: #e4f5ff;
+  color: #0072b1;
+}
+
+.time-agenda {
+  background-color: #45a48b;
+  color: #fff;
+}
+
+table {
+  width: 100%;
+}
+
+.bdColor {
+  border-top: 1px #45a48b solid;
+  box-sizing: border-box;
+}
+
+.th,
+.td {
+  border-top: 1px #45a48b solid;
+  padding: 20px;
+}
+
+tr {
+  vertical-align: top;
+}
+
+.tr-br-color {
+  background-color: #def1ec;
+}
+
+.classItem .kind.keynote {
+  border-color: #00415c;
+  background-color: #00415c;
+  color: #fff;
+}
+
+.classItem .kind {
+  line-height: 1.5em;
+  display: inline-block;
+  border: 1px #ccc solid;
+  background-color: #fff;
+  padding: 3px 9px;
+  margin-bottom: 8px;
+  margin-right: 5px;
+}
+
+.f-size,
+.paraStyle02,
+.speakerHighlight,
+.classItem .kind {
+  font-size: 15px;
+}
+
+.link-style02,
+a.link-style02 {
+  color: #45a48b !important;
+  text-decoration: underline;
+  cursor: pointer;
+}
+
+.paraStyle02 {
+  line-height: 1.5em;
+  color: #777;
+}
+
+.bg-lightgreen3 {
+  background-color: #a8dacd;
+}
+
+th.p0,
+.td.p0 {
+  padding: 0;
+}
+
+.bdfull {
+  border: 1px #45a48b solid;
+}
+
+.w-ml-25 {
+  width: 25%;
+}
+
+.style02 {
+  color: #45a48b;
+  border-top: 4px #45a48b solid;
+}
+
+caption {
+  text-align: center !important;
+  caption-side: top !important;
+}
+
+.trbg01 {
+  background-color: #45a48b;
+  color: #fff;
+}
+
+.nav-heading:hover,
+.nav-heading:focus,
+.nav-heading.active,
+a.nav-heading:hover,
+a.nav-heading:focus,
+a.nav-heading.active {
+  color: #00415c;
+  background-color: #ffffff;
+  text-decoration: none;
+}
+.clearBtn {
+  margin: 0em;
+  border: 0;
+  background: transparent;
+}
+.nav-heading {
+  display: block;
+  color: #ffffff;
+  -webkit-text-decoration-line: underline;
+  text-decoration-line: underline;
+  -webkit-text-decoration-style: dashed;
+  text-decoration-style: dashed;
+  -webkit-text-decoration-color: red;
+  text-decoration-color: red;
+  font-size: 24px;
+  width: calc(100% / 5);
+  -webkit-box-sizing: border-box;
+  box-sizing: border-box;
+  text-align: center;
+  text-decoration: none;
+  padding: 1em 0 1em 0;
+}
+.nav-link.nav-heading,
+a.nav-link.nav-heading {
+  width: calc(100% / 6);
+}
+/* Teams Fonts */
+
+@font-face {
+  font-family: "Teams Assets";
+  src: url("./fonts/TeamsAssets-Light.woff") format("woff"),
+    url("./fonts/TeamsAssets-Light.woff2") format("woff2");
+  font-style: normal;
+}
+
+.mwf-icon.-menu:before {
+  content: "\E30C";
+  font-family: "Teams Assets";
+}
+.mwf-icon {
+  font-family: "Teams Assets";
+  vertical-align: middle;
+  margin: auto 8px;
+}
+/* Teams Fonts end */
+
+.modal-content,
+.btn {
+  border-radius: 0 !important;
+}
+.fz24,
+.speakName,
+.linkstyle01 {
+  font-size: 24px;
+}
+#classDetail-infor pre {
+  font-family: -apple-system, BlinkMacSystemFont, SegoeUI, "微軟正黑體",
+    Microsoft JhengHei, sans-serif, "Apple Color Emoji", "Segoe UI Emoji",
+    "Segoe UI Symbol";
+  font-size: 1em;
+  word-break: normal;
+  word-wrap: break-word;
+  white-space: pre;
+  white-space: -moz-pre-wrap;
+  white-space: pre-wrap;
+  white-space: pre\9;
+}
+
+.bdColor.td {
+  -webkit-box-sizing: border-box;
+  box-sizing: border-box;
+  padding: 20px;
+}
+
+td.td.text-lg-center {
+  padding-bottom: 0px;
+  font-weight: 200;
+}
+.has_nav {
+  position: relative;
+  width: calc(100% / 5);
+}
+div#event_btn.has_nav,
+div#event_btn {
+  width: calc(100% / 6);
+}
+div#event_btn.has_nav .nav-heading {
+  width: 100%;
+}
+.nav-heading.events:hover,
+.nav-heading.events:focus {
+  background-color: #52b652;
+  color: #fff;
+}
+.has_nav .nav-heading {
+  width: 100%;
+  height: 100%;
+}
+.sec_nav {
+  display: block;
+  position: absolute;
+  left: 0;
+  top: 100%;
+  width: 100%;
+  background-color: #333;
+  z-index: 9;
+}
+
+/* Media queries */
+
+@media only screen and (max-width: 991px) {
+  .nav-container {
+    width: 100% !important;
+    max-width: 100% !important;
+  }
+  .below {
+    padding: 0 !important;
+  }
+  .nav-heading,
+  a.nav-heading {
+    width: 100%;
+  }
+  .drop-for-responsive{
+        height: auto ;
+  }
+  .nav-link.nav-heading,
+  a.nav-link.nav-heading {
+    width: 100%;
+  }
+  .nav-move {
+    display: none;
+    position: absolute;
+    width: 100%;
+    z-index: 10;
+  }
+  .bdColor {
+    border-top: none;
+  }
+
+  .bdColor.td:nth-child(1) {
+    padding-bottom: 0;
+  }
+  .bdColor .th,
+  .bdColor.td {
+    border-top: 0px #45a48b solid;
+  }
+  .bdColor .td + .td {
+    padding-top: 10px;
+  }
+  .bdColor .tr + .tr {
+    border-top: 2px #45a48b solid;
+  }
+
+  .bdColor .th,
+  .bdColor .td {
+    -webkit-box-sizing: border-box;
+    box-sizing: border-box;
+    border-top: 0px #ccc dotted;
+  }
+  .bdColor .tr,
+  .bdColor .th,
+  .bdColor .td {
+    display: block;
+    width: 100%;
+    height: auto !important;
+  }
+  .caption.style02.bdColor {
+    font-weight: 700;
+    color: #fff;
+    background-color: #45a48b;
+    border-top: 0;
+  }
+  .bdColor .bdfull > .bdColor {
+    border: 1px #45a48b solid;
+  }
+  .bdColor .w-ml-75,
+  .bdColor .w-ml-50,
+  .bdColor .w-ml-33,
+  .bdColor .w-ml-66,
+  .bdColor .w-ml-25 {
+    width: auto;
+  }
+  .bdfull {
+    border: 0 !important;
+  }
+  strong.d-block.d-lg-none {
+    font-weight: 400;
+  }
+  .has_nav,
+  .sec_nav {
+    position: relative;
+    width: 100%;
+  }
+}
+@media screen and (max-width: 769px) {
+  .classItem {
+    margin-top: 1em;
+  }
+}

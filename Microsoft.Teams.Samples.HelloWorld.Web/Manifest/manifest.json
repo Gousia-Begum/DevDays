@@ -1,0 +1,92 @@
+﻿{
+  "$schema": "https://statics.teams.microsoft.com/sdk/v1.0/manifest/MicrosoftTeams.schema.json",
+  "manifestVersion": "1.3",
+  "version": "1.0.0",
+  "id": "b1c6ce36-f545-4b8d-bc4f-b1e7ae866b37",
+  "packageName": "com.contoso.helloworld",
+  "developer": {
+    "name": "Microsoft",
+    "websiteUrl": "https://www.microsoft.com",
+    "privacyUrl": "https://www.microsoft.com/privacy",
+    "termsOfUseUrl": "https://www.microsoft.com/termsofuse"
+  },
+  "name": {
+    "short": "Event Management",
+    "full": "This is Event Management app"
+  },
+  "description": {
+    "short": "Event Management app for Microsoft Teams",
+    "full": "Provide capabilities to handle Events."
+  },
+  "icons": {
+    "outline": "EManagement192.jpg",
+    "color": "EManagement32.jpg"
+  },
+  "accentColor": "#60A18E",
+  "staticTabs": [
+    {
+      "entityId": "Emgmt",
+      "name": "Agenda",
+      "contentUrl": "https://0005e644.ngrok.io/index",
+      "websiteUrl": "https://0005e644.ngrok.ioo/index",
+      "scopes": [
+        "personal"
+      ]
+    }
+  ],
+  "configurableTabs": [
+    {
+      "configurationUrl": "https://0005e644.ngrok.io/configure",
+      "canUpdateConfiguration": true,
+      "scopes": [
+        "team"
+      ]
+    }
+  ],
+  "bots": [
+    {
+      "botId": "b1c6ce36-f545-4b8d-bc4f-b1e7ae866b37",
+      "needsChannelSelector": false,
+      "isNotificationOnly": false,
+      "scopes": [
+        "team",
+        "personal"
+      ]
+    }
+  ],
+  "composeExtensions": [
+    {
+      "botId": "b1c6ce36-f545-4b8d-bc4f-b1e7ae866b37",
+      "commands": [
+        {
+          "id": "Speakers",
+          "description": "Speakers details",
+          "title": "Speakers",
+          "initialRun": true,
+          "parameters": [
+            {
+              "name": "SpeakerTitle",
+              "description": "Speaker title to use",
+              "title": "Speaker title"
+            }
+          ]
+        },
+        {
+          "id": "Sessions",
+          "title": "Sessions",
+          "description": "Get Session related data",
+          "initialRun": true,
+          "parameters": [
+            {
+              "name": "sessionTitle",
+              "title": "Session Title",
+              "description": "Session title to use"
+            }
+          ]
+        }
+      ]
+    }
+  ],
+  "permissions": [],
+  "validDomains": ["*.ngrok.io"]
+}
